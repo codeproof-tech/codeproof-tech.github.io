@@ -287,7 +287,7 @@ document.getElementById('waitlist-form').addEventListener('submit', function(e) 
   t('cta_click', {email_domain: email.split('@')[1]});
 
   // Formspree — replace YOUR_FORM_ID with actual ID after creating form at formspree.io
-  fetch('https://formspree.io/f/YOUR_FORM_ID', {
+  fetch('https://formspree.io/f/xojpawzy', {
     method: 'POST',
     headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
     body: JSON.stringify({email: email, _subject: 'Codeproof beta request'})
